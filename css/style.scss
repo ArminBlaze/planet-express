@@ -1,0 +1,63 @@
+@import "normalize";
+body {
+}
+
+$font: "Open Sans", sans-serif;
+$font-color: #1e2123;
+
+body {
+	margin: 0;
+	height: 0;
+	min-width: 1300px;
+	background-color: #fff;
+	font-family: $font;
+	font-size: 17px;
+	line-height: 25px;
+	color: $font-color;
+}
+
+.clearfix:after,
+.clearfix:before {
+	content: '';
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+img {
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.header {
+	min-height: 750px;
+}
+
+.slider {
+	background-color: #1e97e3;
+	color: #fff;
+	min-height: 750px;
+	position: relative;
+}
+
+.mainNav {
+	z-index: 2;
+}
+
+.logo__text {
+	font-size: 27px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.logo__span {
+	font-weight: 800;
+}
