@@ -488,6 +488,71 @@ img {
 
 .mainNav {
   float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.mainNav__link {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.mainNav__link:hover {
+  color: #1e2123;
+}
+
+.subMenu {
+  line-height: 22px;
+  display: none;
+  position: absolute;
+  width: 160px;
+  left: 71%;
+  margin: 0;
+  margin-left: -80px;
+  top: 70%;
+  z-index: 10;
+  color: white;
+  list-style: none;
+  padding: 0;
+  padding: 11px 3px;
+  background: #1e2123;
+  box-sizing: border-box;
+}
+
+.subMenu:before {
+  content: '';
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  background-color: #1e2123;
+  top: 0;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -5px;
+  transform: rotate(45deg);
+}
+
+.mainNav__item {
+  position: relative;
+}
+
+.mainNav__item:hover .subMenu {
+  display: block;
+}
+
+.subMenu__link {
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+  padding: 5px 10px;
+  padding-left: 20px;
+  display: block;
+}
+
+.subMenu__link:hover {
+  background-color: #fff;
+  color: #1e2123;
 }
 
 /*# sourceMappingURL=style.css.map */
