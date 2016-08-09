@@ -438,6 +438,7 @@ img {
 
 .header {
   min-height: 750px;
+  margin-bottom: 200px;
 }
 
 .slider {
@@ -598,7 +599,8 @@ img {
   min-width: 64px;
 }
 
-.slider__title {
+.title {
+  color: black;
   position: relative;
   font-size: 41px;
   text-transform: uppercase;
@@ -607,7 +609,7 @@ img {
   margin-bottom: 90px;
 }
 
-.slider__title:after {
+.title:after {
   content: '';
   position: absolute;
   display: block;
@@ -615,6 +617,10 @@ img {
   height: 10px;
   background-color: #fff;
   bottom: -55px;
+}
+
+.title_slider {
+  color: white;
 }
 
 .slider__text {

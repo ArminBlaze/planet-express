@@ -39,6 +39,7 @@ img {
 
 .header {
 	min-height: 750px;
+	margin-bottom: 200px;
 }
 
 .slider {
@@ -214,7 +215,8 @@ $mainNav_color: #1e2123;
 
 
 
-.slider__title {
+.title {
+	color: black;
 	position: relative;
 	font-size: 41px;
 	text-transform: uppercase;
@@ -232,6 +234,10 @@ $mainNav_color: #1e2123;
 		background-color: #fff;
 		bottom: -55px;
 	}
+}
+
+.title_slider {
+	color: white;
 }
 
 .slider__text {
