@@ -686,6 +686,10 @@ img {
   background-image: url(../img/slider.jpg);
 }
 
+.welcome {
+  margin-bottom: 200px;
+}
+
 .welcome__header {
   margin-bottom: 95px;
 }
@@ -778,14 +782,13 @@ img {
 
 .post:nth-child(even) .post__textBlock {
   float: left;
-  text-align: right;
   padding-right: 50px;
   padding-top: 97px;
   padding-left: 250px;
 }
 
-.post:nth-child(even) .post__text {
-  text-align: left;
+.post:nth-child(even) .post__title {
+  text-align: right;
 }
 
 .post:nth-child(even) .post__hover {
