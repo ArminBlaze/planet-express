@@ -466,3 +466,15 @@ $btn_color2: white;
 	padding-right: 80px;
 	font-size: 0;
 }
+
+.btn_active {
+	border-color: black;
+	color: $btn_color2;
+	background-color: black;
+	cursor: default;
+	
+	&:hover {
+		background-color: black;
+//		color: black;
+	}
+}

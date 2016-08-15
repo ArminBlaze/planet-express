@@ -828,4 +828,15 @@ img {
   font-size: 0;
 }
 
+.btn_active {
+  border-color: black;
+  color: white;
+  background-color: black;
+  cursor: default;
+}
+
+.btn_active:hover {
+  background-color: black;
+}
+
 /*# sourceMappingURL=style.css.map */
