@@ -762,8 +762,6 @@ img {
   cursor: pointer;
   min-width: 33px;
   min-height: 34px;
-  margin-bottom: 10px;
-  margin-right: 10px;
   padding: 0 9px;
 }
 
@@ -826,6 +824,12 @@ img {
   padding-left: 80px;
   padding-right: 80px;
   font-size: 0;
+  margin-bottom: 30px;
+}
+
+.btn_gallery {
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .btn_active {
@@ -837,6 +841,51 @@ img {
 
 .btn_active:hover {
   background-color: black;
+}
+
+.gallery_images {
+  margin-top: 100px;
+  font-size: 0;
+}
+
+.gallery__item {
+  display: inline-block;
+  vertical-align: top;
+  width: 650px;
+  height: 333px;
+  position: relative;
+}
+
+.gallery__img {
+  vertical-align: top;
+}
+
+.gallery__hover {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(12, 154, 236, 0.88);
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+  padding: 80px 60px 0;
+}
+
+.gallery__item:hover .gallery__hover {
+  display: block;
+}
+
+.gallery__p {
+  margin: 35px auto 40px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.gallery {
+  margin-bottom: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
