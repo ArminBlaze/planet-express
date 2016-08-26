@@ -38,7 +38,9 @@ img {
 }
 
 .centerText {
-	padding: 0 250px;
+//	padding: 0 250px;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .header {
@@ -532,4 +534,70 @@ $btn_color2: white;
 
 .gallery {
 	margin-bottom: 200px;
+}
+
+.toLeft {
+	vertical-align: top;
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-right: 40px;
+//	margin-bottom: 15px;
+}
+
+.toRight {
+	vertical-align: top;
+	width: 50%;
+	height: auto;
+	outline: 1px solid red;
+	float: right;
+	margin-left: 40px;
+//	margin-bottom: 15px;
+}
+
+.about {
+	
+}
+
+.textCenter {
+	margin-left: 300px;
+}
+
+.about__header {
+	margin-bottom: 98px;
+}
+
+.about__title {
+	font-size: 33px;
+	text-transform: uppercase;
+	font-weight: 800;
+	line-height: 0.85em;
+}
+
+.normalWeight {
+	font-weight: 400;
+}
+
+.about__socialBlock {
+	margin-top: 40px;
+	font-size: 0;
+	margin-bottom: 25px;
+}
+
+.btn_row {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+p {
+	margin: 10px 0;
+}
+
+p + p {
+//	margin-top: 0px;
+}
+
+.skills {
+	width: 650px;
+	height: 250px;
 }
