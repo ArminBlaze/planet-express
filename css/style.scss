@@ -434,14 +434,14 @@ $btn_color2: white;
 	background-position: right;
 	.post__textBlock {
 		float: left;
-//		text-align: right;
+		text-align: right;
 		padding-right: 50px;
 		padding-top: 97px;
 		padding-left: 250px;
 	}
 	
 	.post__title {
-		text-align: right;
+//		text-align: right;
 	}
 	
 	.post__hover {
@@ -451,6 +451,10 @@ $btn_color2: white;
 	.post__btn {
 		left: auto;
 		right: 50px;
+	}
+	
+	.post__text {
+		text-align: left;
 	}
 }
 
@@ -555,7 +559,7 @@ $btn_color2: white;
 }
 
 .about {
-	
+	margin-bottom: 175px;
 }
 
 .textCenter {
@@ -603,4 +607,31 @@ p + p {
 	margin-right: -250px;
 	margin-top: 30px;
 //	padding-top: 10px;
+}
+
+.blog__header {
+	margin-bottom: 95px;
+}
+
+.post_blog1 {
+	background-image: url(../img/blog_1.jpg);
+}
+
+.post_blog2 {
+	background-image: url(../img/blog_2.jpg);
+}
+
+.post_blog3 {
+	background-image: url(../img/blog_3.jpg);
+}
+
+.post_blog4 {
+	background-image: url(../img/blog_4.jpg);
+}
+
+.post__date {
+	font-size: 13px;
+	line-height: 25px;
+	margin-top: -23px;
+	margin-bottom: 3px;
 }
