@@ -549,7 +549,6 @@ $btn_color2: white;
 	vertical-align: top;
 	width: 50%;
 	height: auto;
-	outline: 1px solid red;
 	float: right;
 	margin-left: 40px;
 //	margin-bottom: 15px;
@@ -600,4 +599,8 @@ p + p {
 .skills {
 	width: 650px;
 	height: 250px;
+//	outline: 1px solid red;
+	margin-right: -250px;
+	margin-top: 30px;
+//	padding-top: 10px;
 }
