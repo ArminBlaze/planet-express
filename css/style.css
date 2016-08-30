@@ -979,4 +979,59 @@ p {
   margin-bottom: 3px;
 }
 
+.blog {
+  margin-bottom: 203px;
+}
+
+.contact__item {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.contact__content {
+  font-size: 0;
+  margin-top: 90px;
+}
+
+.map {
+  height: 541px;
+  margin-top: 10px;
+  outline: 1px solid blue;
+  background-image: url(../img/map.jpg);
+  background-repeat: no-repeat;
+}
+
+.form {
+  padding: 0 40px;
+}
+
+.title4 {
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.form__adress {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.form__street {
+  margin-bottom: 30px;
+}
+
+.form__link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.form__link:hover {
+  color: #0c9aec;
+}
+
 /*# sourceMappingURL=style.css.map */
