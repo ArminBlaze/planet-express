@@ -332,6 +332,10 @@ $btn_color2: white;
 	background-image: url(../img/post_1.jpg);
 	background-repeat: no-repeat;
 	background-color: $btn_color2;
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+	align-items: center;
 }
 
 .post_2 {
@@ -357,10 +361,10 @@ $btn_color2: white;
 	z-index: 3;
 	position: relative;
 	width: 50%;
-	float: right;
+//	align-self: flex-end;
 	box-sizing: border-box;
 	padding-left: 50px;
-	padding-top: 80px;
+	padding-top: 10px;
 	padding-right: 250px;
 	overflow-y: auto;
 	max-height: 100%;
@@ -432,11 +436,11 @@ $btn_color2: white;
 
 .post:nth-child(even) {
 	background-position: right;
+	justify-content: flex-start;
 	.post__textBlock {
-		float: left;
 		text-align: right;
 		padding-right: 50px;
-		padding-top: 97px;
+//		padding-top: 97px;
 		padding-left: 250px;
 	}
 	
@@ -632,6 +636,6 @@ p + p {
 .post__date {
 	font-size: 13px;
 	line-height: 25px;
-	margin-top: -23px;
+//	margin-top: -23px;
 	margin-bottom: 3px;
 }
