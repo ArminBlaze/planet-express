@@ -763,6 +763,7 @@ img {
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
+  background-color: transparent;
   cursor: pointer;
   min-width: 33px;
   min-height: 34px;
@@ -983,6 +984,10 @@ p {
   margin-bottom: 203px;
 }
 
+.contact {
+  margin-bottom: 225px;
+}
+
 .contact__item {
   display: inline-block;
   vertical-align: top;
@@ -1003,7 +1008,7 @@ p {
   background-repeat: no-repeat;
 }
 
-.form {
+.contact__right {
   padding: 0 40px;
 }
 
@@ -1015,23 +1020,110 @@ p {
   margin-bottom: 10px;
 }
 
-.form__adress {
+.contact__adress {
   font-size: 17px;
   line-height: 25px;
 }
 
-.form__street {
+.contact__street {
   margin-bottom: 30px;
 }
 
-.form__link {
+.contact__link {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
 
-.form__link:hover {
+.contact__link:hover {
   color: #0c9aec;
+}
+
+.form {
+  width: 360px;
+  padding-top: 43px;
+}
+
+.form__label {
+  font-size: 15px;
+  line-height: 32px;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form__input {
+  border: 3px solid #e8e8e9;
+  outline: none;
+  border-radius: 3px;
+  width: 100%;
+  min-height: 50px;
+  padding: 8px 14px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1e2123;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.form__input:hover {
+  border-color: #bdc6ca;
+}
+
+.form__input:focus {
+  border-color: #1e2123;
+}
+
+.form__input_text {
+  min-height: 182px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: right;
+  padding: 0 40px;
+  font-size: 0;
+  padding-bottom: 120px;
+}
+
+.footer__item {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-left: 20px;
+  vertical-align: top;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #1e2123;
+  padding: 10px 0;
+}
+
+.footer__link:hover {
+  color: #0c9aec;
+}
+
+.footer__links {
+  font-size: 0;
+  margin-bottom: 10px;
+}
+
+.separator {
+  width: 46px;
+  height: 8px;
+  background-color: #1e2123;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer__copyright {
+  font-size: 11px;
+  line-height: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */

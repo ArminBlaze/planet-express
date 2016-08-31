@@ -365,27 +365,57 @@
 			<div class="contact__content">
 				<div class="map contact__item" id="map">
 				</div>
-				<div class="form contact__item">
-					<div class="form__adress">
+				<div class="contact__right contact__item">
+					<div class="contact__adress">
 						<h4 class="title4">Address</h4>
-						<div class="form__street">ul. Lorem Street 123 <br>
+						<div class="contact__street">ul. Lorem Street 123 <br>
 						31-970 Krakow <br>
 						Polska</div>
-						<div class="form__contact">
-							<div>Email: <a class="form__link" href="mailto:sample@mail.com">sample@mail.com</a></div>
-							<div>Phone: <a href="tel:+49 5241 80-0 00" class="form__link">+49 5241 80-0 00</a></div>
-							<div>Mobile: <a href="tel:+49 5241 80-0 00" class="form__link">+49 5241 80-0 00</a></div>
-							<div>Facebook: <a href="facebook.com/username" class="form__link">facebook.com/username</a></div>
-							<div>Twitter: <a href="twitter.com/username" class="form__link">twitter.com/username</a></div>
+						<div class="contact__contacts">
+							<div>Email: <a class="contact__link" href="mailto:sample@mail.com">sample@mail.com</a></div>
+							<div>Phone: <a href="tel:+49 5241 80-0 00" class="contact__link">+49 5241 80-0 00</a></div>
+							<div>Mobile: <a href="tel:+49 5241 80-0 00" class="contact__link">+49 5241 80-0 00</a></div>
+							<div>Facebook: <a href="http://facebook.com/username" class="contact__link">facebook.com/username</a></div>
+							<div>Twitter: <a href="http://twitter.com/username" class="contact__link">twitter.com/username</a></div>
+						</div>
+						<div class="form">
+							<form action="/echo" method="post">
+								<label class="form__label" for="name">Name
+								</label>
+								<input class="form__input" type="text" name="name" value="" id="name" required>
+								<label class="form__label" for="email">Email
+								</label>
+								<input class="form__input" type="email" name="email" value="" id="email" required>
+								<label class="form__label" for="text">Message
+								</label>
+								<textarea class="form__input form__input_text" name="text" id="text" required></textarea>
+								<button class="btn form__btn">Send</button>
+							</form>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+<!--			END OF CONTACT-->
+			
 			
 		</div>
 <!--		END OF MAIN-->
 
+
+<div class="footer">
+	<ul class="footer__links">
+		<li class="footer__item"><a href="#" class="footer__link">Home</a></li>
+		<li class="footer__item"><a href="#" class="footer__link">Service</a></li>
+		<li class="footer__item"><a href="#" class="footer__link">Works</a></li>
+		<li class="footer__item"><a href="#" class="footer__link">About Me</a></li>
+		<li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+	</ul>
+	<div class="separator"></div>
+	<div class="footer__copyright">
+		&copy; 2016 <b>PLANET</b>EXPRESS All right reserved
+	</div>
+</div>
 	</div>
 <!--	END OF CONTAINER-->
 
